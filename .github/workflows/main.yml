@@ -9,8 +9,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - name: mkdir ./docs/dist
-      run: mkdir -p dist
     - name: Setup Node.js
       uses: actions/setup-node@v1
       with:
