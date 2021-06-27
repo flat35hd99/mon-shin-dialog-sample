@@ -21,7 +21,7 @@ jobs:
       run: npm run build --if-present
     - name: List
       working-directory: ./docs
-      run: ls
+      run: ls dist
     - name: Deploy website
       uses: peaceiris/actions-gh-pages@v3
       with:
